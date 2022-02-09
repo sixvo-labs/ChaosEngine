@@ -1,0 +1,56 @@
+#ChaosEngine notes
+
+Why:  Discover the cause of the infrasonic boom that shakes my house when my neighbor closes their new sliding glass door
+
+# sensehat field test 1 
+
+logs
+
+1: indoors
+2: indoors
+3: transit
+4: outdoor (21:22, 21:33 - reference_event_cardoor) (21:34 - reference_event_roadnoise)
+5: outdoor
+6: transit(inside)
+7: testing(violent_shake)
+8: inside
+9: inside(desk) (event_10:42
+10: inside(desk) (event_11:19, 11:37)
+11: inside(night)
+12: inside(night)
+13: transit
+14: outdoor(on_ground, under_window) 
+14-15: events(
+    15:29:30~ lvl(type:2), 
+    15:31:10~15 lvl6), 
+    15:45(type:2) 
+    15:48:40~ (lvl6)
+    16:08:20-30 (6)
+    16:11:24 (7)
+   
+16: blind(empty home, research out of lab, use this as TEST)
+17: 
+    17:51:50-00
+    18:21:20~ lvl(10)
+    18:30:00~ - dog
+    18:56:10~ (lvl3)
+
+types:(null, refrence, noise, event)
+
+
+
+
+hypothesis 1: The ground is shaking 
+assumption: the neighboors huge foundation in causing my stilted home to shake
+prediction: if detectable by this hardware, the accelerometer 
+
+hypothesis 2: there is a negative pressure front caused by the door
+assumption: this would also cause a physical reaction in the form of sound energy
+prediction: a noticiable change in air pressure around time of events 
+
+hypothesis 3: there is a woofer effect that occurs when door is opened and closed due to the volume of the house
+assumption: this would cause my house to shake due to infrasound
+prediction: test-logs should not be able to prove, disprove, indicate, nor counter indicate the premise, as the hardware is not currently equipped with analog sensors capable  infrasound detection
+
+
+
