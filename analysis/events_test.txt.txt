@@ -1,0 +1,7 @@
+#Human recorded log of event 
+ and percieved intensity (log17
+17: 
+    17:51:50-00
+    18:21:20~ lvl(10)
+    18:30:00~ - dog
+    18:56:10~ (lvl3)
